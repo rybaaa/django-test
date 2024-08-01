@@ -1,0 +1,11 @@
+1. python3 -m venv venv_name
+2. activate venv
+3. python -m pip install Django
+4. django-admin startproject project_name .
+5. python .\manage.py runserver (to run the server)
+6. python .\manage.py migrate (to run the migrations)7
+7. python .\manage.py createsuperuser (to create the admin user)
+
+8. python .\manage.py startapp app_name (to create an app)
+9. make changes into app_name models.py file and add this app into settings.py INSTALLED_APPS list
+10. python .\manage.py makemigrations and python .\manage.py migrate   
